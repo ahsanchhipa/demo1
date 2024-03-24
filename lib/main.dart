@@ -9,7 +9,7 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Flutter Application',
+      title: 'My Firts Flutter Application',
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
       home: Dashboard(),

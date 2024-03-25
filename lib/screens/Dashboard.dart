@@ -17,8 +17,5 @@ class Dashboard extends StatelessWidget {
   }
 }
 
-int getNumber() {
-  Random random = new Random();
-  var number = random.nextInt(100);
-  return number;
+int getNumber() {return Random().nextInt(100);
 }

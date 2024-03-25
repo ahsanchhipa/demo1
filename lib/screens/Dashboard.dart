@@ -12,7 +12,7 @@ class Dashboard extends StatelessWidget {
         title: Text('dashboard'.toUpperCase()),
         backgroundColor: Colors.blueGrey,
       ),
-      body: Center(child: Text('Random Value is: ${getNumber()}')),
+      body: Center(child: Text('New Random Value is: ${getNumber()}')),
     );
   }
 }
